@@ -31,7 +31,7 @@
       <img src="image/mountain.png" alt="mountain-image" />
     </div>
 
-    <!-- TASK-1: Complete all the Iteration in the "middle container"
+    <!-- TASK-1: Complete all the Iteration of "middle container"
          TASK-2: Assign table(not nested table) with appropriate "id" and "header" 
                  attribute for visually impaired person.
          TASK-3: Assign nested table with appropriate scope 
@@ -58,20 +58,21 @@
           </tr>
         </thead>
 
-        <!-- Iteration 3:Use appropriate tag to define body(contain 3 rows) of table -->
+        <!-- Iteration 3: Use appropriate tag to define body(contain 3 rows) of table -->
         <tbody>
           <tr>
-            <th id="1">1.</th>
-            <td headers="date 1">May-22</td>
-            <td headers="title 1">To do list web application</td>
+            <th id="one">1.</th>
+            <td headers="date one">May-22</td>
+            <td headers="title one">To do list web application</td>
+            <td headers="languages one">
 
-            <!-- Iteration 4:Nest a table here with:-
-                                1. head as Lang and Usage
-                                2. Body as HTML -> 40%
+            <!-- Iteration 4: Nest a table here such that:-
+                                1. Head contain two column "Lang" and "Usage" as column header respectively.
+                                2. Body contain 3 rows and 2 column as
+                                            HTML -> 40%
                                             CSS -> 10%
                                             Javascript -> 50%
                 -->
-            <td headers="languages 1">
               <table>
                 <thead>
                   <tr>
@@ -100,88 +101,88 @@
           </tr>
 
           <tr>
-            <th scope="row" id="2">2.</th>
-            <td headers="date 2">June-22</td>
-            <td headers="title 2">Personal Protfolio Site</td>
-            <!-- Iteration 4:Nest a table here with:-
-                                1. Head as Lang and Usage
-                                2. Body as HTML -> 40%
-                                            CSS -> 60%
+            <th id="two">2.</th>
+            <td headers="date two">June-22</td>
+            <td headers="title two">Personal Protfolio Site</td>
+            <td headers="languages two">
+            <!-- Iteration 5: Nest a table here such that:-
+                                1. Head contain two column "Lang" and "Usage" as column header respectively.
+                                2. Body contain 2 rows and 2 column as
+                                          HTML -> 40%
+                                          CSS -> 60%
                                             
                 -->
 
-            <td headers="languages 2">
-              <table>
-                <thead>
-                  <tr>
-                    <th scope="col">Lang.</th>
-                    <th scope="col">Usage</th>
-                  </tr>
-                </thead>
+                <table>
+                  <thead>
+                    <tr>
+                      <th scope="col">Lang.</th>
+                      <th scope="col">Usage</th>
+                    </tr>
+                  </thead>
 
-                <tbody>
-                  <tr>
-                    <td>HTML</td>
-                    <td>40%</td>
-                  </tr>
-                  <tr>
-                    <td>CSS</td>
-                    <td>60%</td>
-                  </tr>
-                </tbody>
-              </table>
-            </td>
+                  <tbody>
+                    <tr>
+                      <td>HTML</td>
+                      <td>40%</td>
+                    </tr>
+                    <tr>
+                      <td>CSS</td>
+                      <td>60%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
 
-           
           </tr>
 
           <tr>
-            <th id="3">3.</th>
-            <td headers="date 3">July-22</td>
-            <td headers="title 3">Drum kit site</td>
-            <!-- Iteration 4:Nest a table here with:-
-                                1. Head as Lang and Usage
-                                2. Body as HTML -> 30%
+
+            <th id="three">3.</th>
+            <td headers="date three">July-22</td>
+            <td headers="title three">Drum kit site</td>
+            <td headers="languages three">
+            <!-- Iteration 6: Nest a table here such that:-
+                                1. Head contain two column "Lang" and "Usage" as column header respectively.
+                                2. Body contain 3 rows and 2 column as
+                                            HTML -> 30%
                                             CSS -> 30%
-                                            Javascript -> 40%
-                                            
+                                            Javascript -> 40%                            
                 -->
 
-            <td headers="languages 3">
-              <table>
-                <thead>
-                  <tr>
-                    <th scope="col">Lang.</th>
-                    <th scope="col">Usage</th>
-                  </tr>
-                </thead>
+                <table>
+                  <thead>
+                    <tr>
+                      <th scope="col">Lang.</th>
+                      <th scope="col">Usage</th>
+                    </tr>
+                  </thead>
 
-                <tbody>
-                  <tr>
-                    <td>HTML</td>
-                    <td>30%</td>
-                  </tr>
-                  <tr>
-                    <td>CSS</td>
-                    <td>30%</td>
-                  </tr>
-                  <tr>
-                    <td>Javascript</td>
-                    <td>40%</td>
-                  </tr>
-                </tbody>
-              </table>
-            </td>
+                  <tbody>
+                    <tr>
+                      <td>HTML</td>
+                      <td>30%</td>
+                    </tr>
+                    <tr>
+                      <td>CSS</td>
+                      <td>30%</td>
+                    </tr>
+                    <tr>
+                      <td>Javascript</td>
+                      <td>40%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
 
-          
           </tr>
         </tbody>
 
-        <!-- Iteration 5:Use appropriate tag to define footer of table -->
+        <!-- Iteration 5: Use appropriate tag to define below row as footer -->
         <tfoot>
           <tr>
-            <th scope="row" colspan="2">Total Projects:</th>
-            <td>3</td>
+            <th id="total" colspan="2">Total Projects:</th>
+            <td headers="title total">3</td>
           </tr>
         </tfoot>
 
