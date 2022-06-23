@@ -1,59 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
-body{
+body {
   margin: 0;
   text-align: center;
 }
-h1{
+
+h1 {
   width: 20%;
   margin: 0 auto;
-  font-family: 'Merienda', cursive;
+  font-family: "Merienda", cursive;
   font-size: 4rem;
 }
-h2{
-  font-family: 'Rock Salt', cursive;
+
+h2 {
+  font-family: "Rock Salt", cursive;
   color: #476072;
 }
-p{
+
+p {
   font-size: 1.3rem;
-  font-family: 'Berkshire Swash', cursive;
-  color: #911F27;
+  font-family: "Berkshire Swash", cursive;
+  color: #911f27;
 }
 
-.title-sub{
-  font-family: 'Courgette', cursive;
+.title-sub {
+  font-family: "Courgette", cursive;
   font-size: 1.2rem;
 }
-.top-container{
-  background-color: #E4F6F5;
+
+.top-container {
+  background-color: #e4f6f5;
   padding-top: 60px;
 }
-.bottom-cloud{
+
+.bottom-cloud {
   position: absolute;
 }
-.top-cloud{
+
+.top-cloud {
   position: relative;
   left: 300px;
   top: 20px;
 }
 
 /* start middle container */
-.middle-container{
-  background-color: #FFF2F2;
+.middle-container {
+  background-color: #fff2f2;
   padding: 5em;
 }
 
-
-table{
+table {
   /* border: 2px solid black; */
   text-align: center;
   margin: 0 auto;
   width: 80%;
-  font-family: 'Poppins','san-sarif';
-  color: #4B5D67;
+  font-family: "Poppins", "san-sarif";
+  color: #4b5d67;
 }
 
-th,td{
+th,
+td {
   /* border: 2px solid black; */
   text-align: center;
   margin: 0 auto;
@@ -63,32 +69,30 @@ th,td{
   border-radius: 10px;
 }
 
-th{
-  background-color: #BDF2D5;
+th {
+  background-color: #bdf2d5;
 }
 
 tbody td:nth-child(odd) {
-  background-color: #DAEAF1;
+  background-color: #daeaf1;
 }
 
 tbody td:nth-child(even) {
-  background-color: #C6DCE4;
+  background-color: #c6dce4;
 }
 
-
-caption{
-  font-family: 'Merienda', cursive;
+caption {
+  font-family: "Merienda", cursive;
   font-size: 40px;
   margin: 30px 0;
 }
 
-tfoot td{
+tfoot td {
   text-align: left;
-  background-color: #DAEAF1;
+  background-color: #daeaf1;
 }
 
-
-.bottom-container{
+.bottom-container {
   padding: 30px 0;
-  background-color: #E4F6F5;
+  background-color: #e4f6f5;
 }
